@@ -30,7 +30,7 @@ Use the section headers to reference the following locations:
 - Apollo server
 
 
-### Clonig This project
+### Cloning This project
 
 * To clone this project from the github repository into your local machine, run the commands:
 
