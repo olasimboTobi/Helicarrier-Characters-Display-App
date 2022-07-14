@@ -1,0 +1,75 @@
+.CharacterList{
+    width:100%;
+    /* background-color:fuchsia; */
+    /* background-color: midnightblue; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 5px;
+    /* line-height: 20px; */
+}
+
+.character--container{
+    width:100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+   
+}
+
+
+.data--container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+} 
+
+.img--character{
+    flex:0.2;
+    height:130px;
+    object-fit: contain;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.group--character{
+    flex:0.7;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content:space-evenly; 
+    margin: 1em;
+    padding: 4em;
+    background-color: midnightblue;
+    color: whitesmoke;
+    border-radius: 15px;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+
+    .data--container{
+        display:flex;
+        flex-direction: column;
+        align-items:space-between;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .img--character{
+        width:100%;
+        flex:0.2;
+        height:80px;
+        object-fit: contain;
+    }
+
+    .group--character{
+        flex:0.4;
+        font-size: 0.8rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items:space-between;
+    
+    }
+  }
+
