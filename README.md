@@ -17,7 +17,7 @@ Use the section headers to reference the following locations:
 
 ## Description
 
-**Character Display** is a Web Application that displays different Rick Morty animation characters with thieir details. The characters are grouped based on their date of creation, and characters can be searched using their names and status. Status indicaes if the character is dead or alive.
+**Character Display** is a Web Application that displays different Rick Morty animation characters with thieir details. The characters are grouped based on their date of creation, and characters can be searched using their names and status. Status indicates if the character is dead or alive.
 
 
 ## Technologies
@@ -39,22 +39,25 @@ git init
 git clone git@github.com:olasimboTobi/Helicarrier-Characters-Display-App.git
 
 ```
+### Running the Project for Development
 
 * cd to the project directory
-* open two seperate terminals
-* In the project directory, run the command:
-
-### Running the Project for Development
+* open two seperate terminals, and make sure you are in the project root directory.
 
 On one Terminal, run the command:
 
-`node index.js`
+```
+node index.js
+
+```
 
 On the Second Terminal, run the command:
 
-`npm start`
+```
+npm start
+```
 
-The above commands runs the app in the development mode.\
+The above commands runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
@@ -63,9 +66,13 @@ You will also see any lint errors in the console.
 
 #### Building the Project for Production Deployment
 
+* Stop all the development servers
 * In the project directory, run the command:
 
-`npm build`
+```
+npm build
+
+```
 
 this builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
